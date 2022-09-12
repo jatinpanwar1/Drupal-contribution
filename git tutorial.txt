@@ -1,0 +1,22 @@
+$ git config --global user.name "username"
+$ git config --global user.email "email address"
+$touch (to create new file)
+$ git init
+	The git init command creates a new Git repository. It can be used to convert an existing,
+ 	unversioned project to a Git repository or initialize a new,empty repository.
+ 	Most other Git commands are not available outside of an initialized repository, 
+	so this is usually the first command you'll run in a new project.
+$ git add "file_name or -A for all_file".
+	The git add command adds a change in the working directory to the staging area.
+ 	It tells Git that you want to include updates to a particular file in the next commit. 
+	However, git add doesn't really affect the repository in any significant way—changes are not actually recorded until you run git commit.
+$ git commit -m 
+$ git checkout "file_name or -f for all file".
+        this command will bring back your file if you have done accidentally wrong with your file on ur system.it will change ur current             
+        file with the last commited file on git.
+$ git log 
+        it will show al ur last commitwith details.
+$ git log -p -5
+        it will show u ur last 5 commit.	
+$ git remote add origin
+$ git push origin master(after adding the public ssh key).
